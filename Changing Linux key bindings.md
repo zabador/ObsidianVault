@@ -1,4 +1,4 @@
-# Changing mod keys to match Mac
+# Changing Linux mod keys to match Mac
 
 First we need to find out what keys are what. We can do this by running xev
 

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Changing key binding.md",
+                "file": "Changing Linux key bindings.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Changing key binding.md",
+                "file": "Changing Linux key bindings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Changing key binding.md",
+                "file": "Changing Linux key bindings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Changing key binding.md"
+                "file": "Changing Linux key bindings.md"
               }
             }
           }
@@ -138,6 +138,6 @@
   },
   "active": "407489d81e6357a3",
   "lastOpenFiles": [
-    "Changing key binding.md"
+    "Changing Linux key bindings.md"
   ]
 }
