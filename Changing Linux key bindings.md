@@ -24,19 +24,19 @@ You can do the same with the Windows key which should say Super_L and the Alt ke
 
 Once you have these keys you need to change the xmodmap.
 
-Copy the original keybinding to a file in your home directory call .Xmodmap
+Copy the original keybinding to a file in your home directory called .Xmodmap
 
 ```shell
 xmodmap -pke > ~/.Xmodmap
 ```
 
-In the file you will wan to edit the keycodes. For example my keycodes were
+In the file you will want to edit the keycodes. For example my keycodes were
 
 Left Control = Keycode 37
 Left Alt = Keycode 64
 Left Super = Keycode 133
 
-Open the an the  ``` Xmodmap```  file in an editor and change the keycode lines
+Open the  ``` Xmodmap```  file in an editor and change the keycode lines
 
 ```
 keycode  37 = Super_L NoSymbol Super_L
@@ -49,7 +49,7 @@ Once this is done the keys will act like a Mac keyboard in any desktop manager.
 
 ## Update new Keys in AwesomeWM
 
-The updated keys will only work in a desktop manager. To update Awesome Window manger we will have to update the ``` Xmodmap``` file again
+The updated keys will only work in a desktop manager. To update Awesome Window manager we will have to update the ``` Xmodmap``` file again
 
 Open the file and at the top of the file add
 
@@ -62,8 +62,7 @@ clear mod4
 And at the bottom of the file add
 
 ```
-clear control
-clear mod1
-clear mod4
-
+add control = Control_R Control_L
+add mod1 = Alt_L
+add mod4 = Super_L
 ```
